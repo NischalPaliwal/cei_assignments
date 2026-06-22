@@ -95,7 +95,7 @@ FROM orders
 WHERE sales > (SELECT AVG(sales) FROM orders);
 ```
 
-
+<img width="1474" height="857" alt="Screenshot 2026-06-08 190241" src="https://github.com/user-attachments/assets/1fb33031-dff4-47e2-bc63-00ffd12a028a" />
 
 ---
 
@@ -116,7 +116,7 @@ WHERE o.sales = (
 );
 ```
 
-
+<img width="1474" height="860" alt="Screenshot 2026-06-08 190319" src="https://github.com/user-attachments/assets/4783d6d8-2deb-4e14-9f67-74471d991653" />
 
 ---
 
@@ -143,7 +143,7 @@ GROUP BY
     customer_name;
 ```
 
-
+<img width="1476" height="865" alt="Screenshot 2026-06-08 192813" src="https://github.com/user-attachments/assets/0bb92350-f5ea-400e-a0a9-dbba39af98d2" />
 
 ---
 
@@ -168,7 +168,7 @@ FROM customer_totals
 WHERE total_sales > (SELECT AVG(total_sales) FROM customer_totals);
 ```
 
-
+<img width="1473" height="864" alt="Screenshot 2026-06-08 193557" src="https://github.com/user-attachments/assets/24298841-9279-4df9-bb55-9048719cc1fe" />
 
 ---
 
@@ -193,7 +193,7 @@ SELECT
 FROM customer_totals;
 ```
 
-
+<img width="1476" height="858" alt="Screenshot 2026-06-08 195844" src="https://github.com/user-attachments/assets/e6f0c6b0-b136-414d-8fc4-53b12cd2efee" />
 
 ---
 
@@ -221,7 +221,7 @@ FROM
     ) subquery;
 ```
 
-
+<img width="1472" height="746" alt="Screenshot 2026-06-08 201043" src="https://github.com/user-attachments/assets/7df7c6bd-b228-4188-9973-3a717d77c739" />
 
 ---
 
@@ -251,7 +251,7 @@ FROM
 WHERE ranking <= 3;
 ```
 
-
+<img width="1266" height="197" alt="Screenshot 2026-06-08 202302" src="https://github.com/user-attachments/assets/7db8eee2-b783-4162-a176-3c87ff40e4c2" />
 
 ---
 
@@ -277,7 +277,7 @@ FROM customers_join_orders
 GROUP BY customer_id, customer_name;
 ```
 
-
+<img width="1037" height="627" alt="Screenshot 2026-06-08 202725" src="https://github.com/user-attachments/assets/598aecfc-dfb0-4891-baac-edd735a08105" />
 
 ---
 
@@ -310,7 +310,7 @@ FROM
 ) subquery2;
 ```
 
-
+<img width="811" height="244" alt="Screenshot 2026-06-08 203214" src="https://github.com/user-attachments/assets/78ee6e75-c887-4143-b38d-ae76da892091" />
 
 ---
 
@@ -341,7 +341,7 @@ FROM
 ) subquery2;
 ```
 
-
+<img width="911" height="281" alt="Screenshot 2026-06-08 203243" src="https://github.com/user-attachments/assets/504a3195-7d0b-46c2-9b12-15d24ad67ac8" />
 
 ---
 
@@ -357,7 +357,7 @@ GROUP BY c.customer_id, c.customer_name
 HAVING COUNT(order_id) = 1;
 ```
 
-
+<img width="456" height="237" alt="Screenshot 2026-06-08 210250" src="https://github.com/user-attachments/assets/2f65601a-c6fe-43e0-8147-18c4ebeb80ab" />
 
 ---
 
@@ -381,7 +381,7 @@ FROM customer_totals
 WHERE total_sales > (SELECT AVG(total_sales) FROM customer_totals);
 ```
 
-
+<img width="1476" height="791" alt="Screenshot 2026-06-08 210416" src="https://github.com/user-attachments/assets/54852897-4e7f-4644-99a8-0b804732843d" />
 
 ---
 
@@ -397,3 +397,4 @@ JOIN orders o ON c.customer_id = o.customer_id
 GROUP BY c.customer_id, c.customer_name;
 ```
 
+<img width="1474" height="779" alt="Screenshot 2026-06-08 210626" src="https://github.com/user-attachments/assets/eb5a29e2-cfff-41c0-bed6-ba67bbeec0d0" />

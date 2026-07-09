@@ -1,0 +1,18 @@
+customer_id,name,email,city,signup_date
+1001,Aarav Sharma,aarav.sharma@email.com,Jaipur,2022-01-15
+1002,Priya Verma,priya.verma@email.com,Delhi,2022-02-10
+1003,Rohan Gupta,rohan.gupta@email.com,Mumbai,2022-03-05
+1004,Sneha Reddy,,Hyderabad,2022-03-20
+1005,Karan Mehta,karan.mehta@email.com,Pune,2022-04-01
+1006,Ananya Iyer,ananya.iyer@email.com,Chennai,2022-04-18
+1007,Vikram Nair,vikram.nair@email.com,Kochi,2022-05-02
+1008,Neha Joshi,neha.joshi@email.com,Ahmedabad,
+1009,Arjun Malhotra,arjun.malhotra@email.com,Jaipur,2022-06-11
+1010,Isha Kapoor,isha.kapoor@email.com,Bangalore,2022-06-25
+1003,Rohan Gupta,rohan.gupta@email.com,Mumbai,2022-03-05
+1011,Aditya Rao,aditya.rao@email.com,Kolkata,2022-07-01
+1012,Meera Pillai,meera.pillai@email.com,Chennai,2022-07-15
+1013,Rahul Chawla,,Delhi,2022-08-01
+1014,Divya Menon,divya.menon@email.com,Kochi,2022-08-20
+1010,Isha Kapoor,isha.kapoor@email.com,Bangalore,2022-06-25
+1015,Sanjay Bhatt,sanjay.bhatt@email.com,Surat,2022-09-05

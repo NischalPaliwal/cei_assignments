@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark / Delta local warehouse
+spark-warehouse/
+metastore_db/
+derby.log
+/tmp/delta/
+
+# OS
+.DS_Store
+Thumbs.db

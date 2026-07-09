@@ -4,7 +4,7 @@
 
 Performed incremental data processing using Delta Lake: load a customer dataset into a Delta
 table, clean it, simulate an incremental batch of new/updated records, apply `MERGE`
-operations to implement both **SCD Type 1** (overwrite, no history) and validate the results.
+operations to implement **SCD Type 1** (overwrite, no history) and validate the results.
 
 ## Project Structure
 
